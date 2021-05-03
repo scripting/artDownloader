@@ -1,6 +1,6 @@
 {
 	"name": "artDownloader",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "A Node app that downloads art from fan Twitter accounts into a folder, for use in a screen saver.",
 	"repository": "http://github.com/scripting/artDownloader",
 	"license": "MIT",

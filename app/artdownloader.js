@@ -1,4 +1,4 @@
-const myVersion = "0.4.0", myProductName = "artDownloader";
+const myVersion = "0.4.1", myProductName = "artDownloader";
 
 const fs = require ("fs");
 const utils = require ("daveutils");
@@ -8,6 +8,7 @@ const davetwitter = require ("davetwitter");
 var config = {
 	mediaFilePath: "data/images/",
 	jsonFilePath: "data/json/",
+	fnameStats: "stats.json",
 	
 	minSecsBetwChecks: 60 * 60, //1 hour
 	
@@ -27,7 +28,7 @@ var stats = {
 	artists: new Object ()
 	};
 
-const fnameConfig = "config.json", fnameStats = "stats.json";
+const fnameConfig = "config.json";
 
 var flStatsChanged = undefined;
 
@@ -176,7 +177,7 @@ function everyMinute () {
 function everySecond () {
 	if (flStatsChanged) {
 		flStatsChanged = false;
-		fs.writeFile (fnameStats, utils.jsonStringify (stats), function (err) {
+		fs.writeFile (config.fnameStats, utils.jsonStringify (stats), function (err) {
 			});
 		}
 	}
@@ -196,8 +197,8 @@ function readConfig (f, config, callback) {
 		callback ();
 		});
 	}
-readConfig (fnameStats, stats, function () {
-	readConfig (fnameConfig, config, function () {
+readConfig (fnameConfig, config, function () {
+	readConfig (config.fnameStats, stats, function () {
 		config.flServerEnabled = false; 
 		davetwitter.start (config);
 		utils.runEveryMinute (everyMinute);
