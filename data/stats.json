@@ -1,6 +1,6 @@
 {
-    "ctPictures": 561,
-    "whenLastPicture": "2021-05-03T21:54:00.900Z",
+    "ctPictures": 580,
+    "whenLastPicture": "2021-05-03T21:59:00.309Z",
     "artists": {
         "pablocubist": {
             "whenAdded": "2021-05-03T14:41:35.538Z",
@@ -174,23 +174,23 @@
         },
         "artistokeeffe": {
             "whenAdded": "2021-05-03T14:58:00.629Z",
-            "whenLastCheck": "2021-05-03T21:31:00.541Z",
-            "ctChecks": 16,
+            "whenLastCheck": "2021-05-03T21:57:00.679Z",
+            "ctChecks": 17,
             "ctErrors": 0,
             "id": "4252296618",
-            "idLastTweet": "1389055930654932993",
+            "idLastTweet": "1389061581556920321",
             "ctPictures": 21,
             "whenLastPicture": "2021-05-03T21:31:00.541Z"
         },
         "artlichtenstein": {
             "whenAdded": "2021-05-03T14:59:00.739Z",
-            "whenLastCheck": "2021-05-03T21:32:00.892Z",
-            "ctChecks": 16,
+            "whenLastCheck": "2021-05-03T21:58:00.791Z",
+            "ctChecks": 17,
             "ctErrors": 0,
             "id": "893074379927691264",
-            "idLastTweet": "1389066487458148353",
-            "ctPictures": 16,
-            "whenLastPicture": "2021-05-03T20:40:00.085Z"
+            "idLastTweet": "1389069253198991365",
+            "ctPictures": 17,
+            "whenLastPicture": "2021-05-03T21:58:00.791Z"
         },
         "ArtistDaVinci": {
             "whenAdded": "2021-05-03T15:00:00.888Z",
@@ -261,6 +261,16 @@
             "idLastTweet": "1388968276533858310",
             "ctPictures": 22,
             "whenLastPicture": "2021-05-03T21:39:00.103Z"
+        },
+        "artistseurat": {
+            "whenAdded": "2021-05-03T21:59:00.309Z",
+            "whenLastCheck": "2021-05-03T21:59:00.309Z",
+            "ctChecks": 1,
+            "ctErrors": 0,
+            "id": "3842270054",
+            "idLastTweet": "1388550893004595200",
+            "ctPictures": 18,
+            "whenLastPicture": "2021-05-03T21:59:00.309Z"
         }
     }
 }
