@@ -4,7 +4,7 @@ A collection of great art in one big folder. Download and point your screen save
 
 ### How to use
 
-1. Download the folder.
+1. <a href="https://github.com/scripting/artDownloader/archive/refs/heads/main.zip">Download</a> the folder.
 
 2. Unzip it.
 
@@ -40,11 +40,15 @@ Assuming you know how to run a Node app, you have to create a config.json file w
 
 2. myAccessTokenSecret
 
-The first two bits identify the Twitter app you running from. You can create an app on this page at Twitter's website.
+The first two bits identify the Twitter app you running from. You can create an app on <a href="https://developer.twitter.com/en/portal/projects-and-apps">this page</a> at Twitter's developer website.
 
-The second two bits identify you as a user. You can generate these using the same page on twitter.com.
+The second two bits identify you as a user. You can generate these using the <a href="https://developer.twitter.com/en/portal/projects-and-apps">same page</a> on twitter.com.
 
 I've included an example config.json file in the folder with fake data. 
 
 If you leave the app running, it'll check every feed about once an hour and download the new images. 
+
+### Problems, questions?
+
+Post an <a href="https://github.com/scripting/artDownloader/issues">issue</a> here. 
 
