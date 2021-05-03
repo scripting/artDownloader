@@ -1,6 +1,6 @@
 # artDownloader
 
-A collection of great art in one big folder. Download and point your screen saver at the folder for a live art show.
+A collection of great art in <a href="https://github.com/scripting/artDownloader/tree/main/data/images">one big folder</a>. Download and point your screen saver at the folder for a live art show.
 
 ### How to use
 
@@ -8,7 +8,7 @@ A collection of great art in one big folder. Download and point your screen save
 
 2. Unzip it.
 
-3. In your Settings app, open the Screen Saver panel, and choose the images sub-folder of the data folder. 
+3. In your Settings app, open the Screen Saver panel, and choose the <a href="https://github.com/scripting/artDownloader/tree/main/data/images">images</a> sub-folder of the data folder. 
 
 4. When your system is in idle, enjoy an art show on your desktop. Or set it up on a screen in your living room or lobby, for an art show for your friends.
 
@@ -18,7 +18,7 @@ I had some time this weekend to do a little software project I've wanted to do f
 
 It's a growing folder of great art, for use in a screen saver, or whatever other app you might have in mind. 
 
-Bill Gates has this in his house, but i think everyone should be able to have it. You shouldn't have to be rich to have your life enriched by art. 
+Bill Gates has this in his house, but you shouldn't have to be rich to have your life enriched by art. 
 
 It's possible because there's a relatively new thing on Twitter, where people have adopted famous artists, they post their great works, and retweet works of other famous artist accounts, so it's like a little social network of great art.
 
@@ -47,6 +47,62 @@ The second two bits identify you as a user. You can generate these using the <a 
 I've included an example config.json file in the folder with fake data. 
 
 If you leave the app running, it'll check every feed about once an hour and download the new images. 
+
+### The fan feeds
+
+Here's a list of the first 26 feeds my app is following.
+
+1. <a href="http://twitter.com/artfridakahlo">artfridakahlo</a>
+
+1. <a href="http://twitter.com/artist_dali">artist_dali</a>
+
+1. <a href="http://twitter.com/artistbruegel">artistbruegel</a>
+
+1. <a href="http://twitter.com/artistchagall">artistchagall</a>
+
+1. <a href="http://twitter.com/ArtistDaVinci">ArtistDaVinci</a>
+
+1. <a href="http://twitter.com/artistdegas">artistdegas</a>
+
+1. <a href="http://twitter.com/artistdekooning">artistdekooning</a>
+
+1. <a href="http://twitter.com/artistgauguin">artistgauguin</a>
+
+1. <a href="http://twitter.com/artistholbein">artistholbein</a>
+
+1. <a href="http://twitter.com/artisthopper">artisthopper</a>
+
+1. <a href="http://twitter.com/artistklee">artistklee</a>
+
+1. <a href="http://twitter.com/artistmagritte">artistmagritte</a>
+
+1. <a href="http://twitter.com/artistmanet">artistmanet</a>
+
+1. <a href="http://twitter.com/artistmatisse">artistmatisse</a>
+
+1. <a href="http://twitter.com/artistmorisot">artistmorisot</a>
+
+1. <a href="http://twitter.com/artistokeeffe">artistokeeffe</a>
+
+1. <a href="http://twitter.com/artistpollock">artistpollock</a>
+
+1. <a href="http://twitter.com/artistraphael">artistraphael</a>
+
+1. <a href="http://twitter.com/artistrivera">artistrivera</a>
+
+1. <a href="http://twitter.com/artistrothko">artistrothko</a>
+
+1. <a href="http://twitter.com/artlichtenstein">artlichtenstein</a>
+
+1. <a href="http://twitter.com/cezanneart">cezanneart</a>
+
+1. <a href="http://twitter.com/fanmichelangelo">fanmichelangelo</a>
+
+1. <a href="http://twitter.com/franzmarcart">franzmarcart</a>
+
+1. <a href="http://twitter.com/pablocubist">pablocubist</a>
+
+1. <a href="http://twitter.com/vangoghartist">vangoghartist</a>
 
 ### Problems, questions?
 
