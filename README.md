@@ -2,16 +2,6 @@
 
 A collection of great art in <a href="https://github.com/scripting/artDownloader/tree/main/data/images">one big folder</a>. Download and point your screen saver at the folder for a live art show.
 
-### How to use
-
-1. <a href="https://github.com/scripting/artDownloader/archive/refs/heads/main.zip">Download</a> the folder.
-
-2. Unzip it.
-
-3. In your Settings app, open the Screen Saver panel, and choose the <a href="https://github.com/scripting/artDownloader/tree/main/data/images">images</a> sub-folder of the data folder. 
-
-4. When your system is in idle, enjoy an art show on your desktop. Or set it up on a screen in your living room or lobby, for an art show for your friends.
-
 ### The story
 
 I had some time this weekend to do a little software project I've wanted to do for a while, it was only recently possible. 
@@ -24,29 +14,15 @@ It's possible because there's a relatively new thing on Twitter, where people ha
 
 I have an app that downloads the art from those accounts. That app, in source, is in the app folder here. The data it downloads is in the data folder, offered in both image and json formats. The images are what you should point your screen saver at. 
 
-### Running the app
+### How to use
 
-You can totally enjoy the art without running the app. I'm including it here so other developers who have ideas don't have to reimplement what I've already got running.
+1. <a href="https://github.com/scripting/artDownloader/archive/refs/heads/main.zip">Download</a> the folder.
 
-The app is written in JavaScript designed to run in Node.js.
+2. Unzip it.
 
-Assuming you know how to run a Node app, you have to create a config.json file with four elements. 
+3. In your Settings app, open the Screen Saver panel, and choose the <a href="https://github.com/scripting/artDownloader/tree/main/data/images">images</a> sub-folder of the data folder. 
 
-3. twitterConsumerKey
-
-4. twitterConsumerSecret
-
-1. myAccessToken
-
-2. myAccessTokenSecret
-
-The first two bits identify the Twitter app you running from. You can create an app on <a href="https://developer.twitter.com/en/portal/projects-and-apps">this page</a> at Twitter's developer website.
-
-The second two bits identify you as a user. You can generate these using the <a href="https://developer.twitter.com/en/portal/projects-and-apps">same page</a> on twitter.com.
-
-I've included an example config.json file in the folder with fake data. 
-
-If you leave the app running, it'll check every feed about once an hour and download the new images. 
+4. When your system is in idle, enjoy an art show on your desktop. Or set it up on a screen in your living room or lobby, for an art show for your friends.
 
 ### The fan feeds
 
@@ -103,6 +79,30 @@ Here's a list of the first 26 feeds my app is following.
 1. <a href="http://twitter.com/pablocubist">pablocubist</a>
 
 1. <a href="http://twitter.com/vangoghartist">vangoghartist</a>
+
+### Running the app
+
+You can totally enjoy the art without running the app. I'm including it here so other developers who have ideas don't have to reimplement what I've already got running.
+
+The app is written in JavaScript designed to run in Node.js.
+
+Assuming you know how to run a Node app, you have to create a config.json file with four elements. 
+
+3. twitterConsumerKey
+
+4. twitterConsumerSecret
+
+1. myAccessToken
+
+2. myAccessTokenSecret
+
+The first two bits identify the Twitter app you running from. You can create an app on <a href="https://developer.twitter.com/en/portal/projects-and-apps">this page</a> at Twitter's developer website.
+
+The second two bits identify you as a user. You can generate these using the <a href="https://developer.twitter.com/en/portal/projects-and-apps">same page</a> on twitter.com.
+
+I've included an example config.json file in the folder with fake data. 
+
+If you leave the app running, it'll check every feed about once an hour and download the new images. 
 
 ### Problems, questions?
 
