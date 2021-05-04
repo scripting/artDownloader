@@ -54,7 +54,12 @@ function buildArtJson (callback) {
 		catch (err) {
 			}
 		});
-	fs.writeFile (config.artJsonPath, utils.jsonStringify (artArray), function (err) {
+	
+	var artLibrary = {
+		theArt: artArray
+		};
+	
+	fs.writeFile (config.artJsonPath, utils.jsonStringify (artLibrary), function (err) {
 		if (err) {
 			console.log ("buildArtJson: err.message == " + err.message + ", config.artJsonPath == " + config.artJsonPath);
 			}
