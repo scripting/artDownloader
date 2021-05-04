@@ -9,6 +9,7 @@ var config = {
 	mediaFilePath: "data/images/",
 	jsonFilePath: "data/json/",
 	fnameStats: "stats.json",
+	artJsonPath: "data/art.json",
 	
 	minSecsBetwChecks: 60 * 60, //1 hour
 	
@@ -36,6 +37,33 @@ var flStatsChanged = undefined;
 function statsChanged () {
 	flStatsChanged = true;
 	}
+
+function buildArtJson (callback) {
+	var artArray = new Array (), whenstart = new Date ();
+	var folderlist = fs.readdirSync (config.jsonFilePath);
+	folderlist.forEach (function (foldername) {
+		try {
+			var folder = config.jsonFilePath + foldername;
+			var filelist = fs.readdirSync (folder);
+			filelist.forEach (function (filename) {
+				var jsontext = fs.readFileSync (folder + "/" + filename).toString ();
+				var jstruct = JSON.parse (jsontext);
+				artArray.push (jstruct);
+				});
+			}
+		catch (err) {
+			}
+		});
+	fs.writeFile (config.artJsonPath, utils.jsonStringify (artArray), function (err) {
+		if (err) {
+			console.log ("buildArtJson: err.message == " + err.message + ", config.artJsonPath == " + config.artJsonPath);
+			}
+		});
+	if (callback !== undefined) {
+		callback (artArray);
+		}
+	}
+
 function haveThisArt (screenname, fname) {
 	try {
 		var f = config.mediaFilePath + fname;
@@ -179,6 +207,7 @@ function everySecond () {
 		flStatsChanged = false;
 		fs.writeFile (config.fnameStats, utils.jsonStringify (stats), function (err) {
 			});
+		buildArtJson ();
 		}
 	}
 function readConfig (f, config, callback) {
@@ -201,6 +230,7 @@ readConfig (fnameConfig, config, function () {
 	readConfig (config.fnameStats, stats, function () {
 		config.flServerEnabled = false; 
 		davetwitter.start (config);
+		buildArtJson ();
 		utils.runEveryMinute (everyMinute);
 		setInterval (everySecond, 1000); 
 		});
