@@ -11,6 +11,8 @@ var config = {
 	fnameStats: "stats.json",
 	artJsonPath: "data/art.json",
 	
+	idFanList: "1389951899424677888",
+	
 	minSecsBetwChecks: 60 * 60, //1 hour
 	
 	artists: [
@@ -34,10 +36,40 @@ const fnameConfig = "config.json";
 var flStatsChanged = undefined;
 
 
+function testLists () {
+	davetwitter.getListMembers (config.myAccessToken, config.myAccessTokenSecret, "1389951899424677888", function (err, data) {
+		if (err) {
+			console.log (err.message);
+			}
+		else {
+			console.log (utils.jsonStringify (data));
+			}
+		});
+	}
+
+function getFanAccountsList (callback) {
+	davetwitter.getListMembers (config.myAccessToken, config.myAccessTokenSecret, config.idFanList, function (err, theList) {
+		if (err) {
+			console.log ("getFanAccountsList: err.message == " + err.message);
+			}
+		else {
+			let newList = new Array ();
+			theList.forEach (function (item) {
+				newList.push (item.screenname);
+				});
+			config.artists = newList;
+			stats.fanAccountsList = newList;
+			statsChanged ();
+			}
+		if (callback !== undefined) {
+			callback ();
+			}
+		});
+	}
+
 function statsChanged () {
 	flStatsChanged = true;
 	}
-
 function buildArtJson (callback) {
 	var artArray = new Array (), whenstart = new Date ();
 	var folderlist = fs.readdirSync (config.jsonFilePath);
@@ -68,7 +100,6 @@ function buildArtJson (callback) {
 		callback (artArray);
 		}
 	}
-
 function haveThisArt (screenname, fname) {
 	try {
 		var f = config.mediaFilePath + fname;
@@ -204,7 +235,14 @@ function checkNextArtist () {
 		checkOneArtist (screenname);
 		}
 	}
+function everyTenMinutes () {
+	getFanAccountsList ();
+	}
 function everyMinute () {
+	var now = new Date ();
+	if ((now.getMinutes () % 10) == 0) {
+		everyTenMinutes ();
+		}
 	checkNextArtist ();
 	}
 function everySecond () {
@@ -231,12 +269,15 @@ function readConfig (f, config, callback) {
 		callback ();
 		});
 	}
+
 readConfig (fnameConfig, config, function () {
 	readConfig (config.fnameStats, stats, function () {
 		config.flServerEnabled = false; 
 		davetwitter.start (config);
-		buildArtJson ();
-		utils.runEveryMinute (everyMinute);
-		setInterval (everySecond, 1000); 
+		getFanAccountsList (function () {
+			buildArtJson ();
+			utils.runEveryMinute (everyMinute);
+			setInterval (everySecond, 1000); 
+			});
 		});
 	});
