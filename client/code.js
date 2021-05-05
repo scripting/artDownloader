@@ -1,5 +1,4 @@
 var appConsts = {
-	urlTwitterServer: "http://twitter.happyfriends.camp/",
 	version: "0.4.5"
 	};
 

@@ -1,6 +1,6 @@
 {
-    "ctPictures": 1475,
-    "whenLastPicture": "2021-05-05T13:31:00.796Z",
+    "ctPictures": 1477,
+    "whenLastPicture": "2021-05-05T13:32:00.932Z",
     "artists": {
         "pablocubist": {
             "whenAdded": "2021-05-03T14:41:35.538Z",
@@ -94,13 +94,13 @@
         },
         "artist_dali": {
             "whenAdded": "2021-05-03T14:50:00.581Z",
-            "whenLastCheck": "2021-05-05T12:32:00.694Z",
-            "ctChecks": 55,
+            "whenLastCheck": "2021-05-05T13:32:00.932Z",
+            "ctChecks": 56,
             "ctErrors": 0,
             "id": "798727210995687424",
-            "idLastTweet": "1389765224069206022",
-            "ctPictures": 54,
-            "whenLastPicture": "2021-05-05T12:32:00.694Z"
+            "idLastTweet": "1389772342381907971",
+            "ctPictures": 56,
+            "whenLastPicture": "2021-05-05T13:32:00.932Z"
         },
         "artistchagall": {
             "whenAdded": "2021-05-03T14:51:00.684Z",
