@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Art Show</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="//s3.amazonaws.com/scripting.com/code/includes/jquery-1.9.1.min.js"></script>
+<link href="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.css" rel="stylesheet">
+<script src="//s3.amazonaws.com/scripting.com/code/includes/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="//s3.amazonaws.com/scripting.com/code/fontawesome/css/all.css">
+<link href="//fonts.googleapis.com/css?family=Ubuntu:400,500i,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+
+<script src="//s3.amazonaws.com/scripting.com/code/includes/basic/code.js"></script>
+<link href="//s3.amazonaws.com/scripting.com/code/includes/basic/styles.css" rel="stylesheet" type="text/css">
+
+		<script src="http://api.nodestorage.io/api.js"></script>
+		<script src="code.js"></script>
+		<script src="viewart.js"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<!-- Facebook metadata -->
+			<meta property="og:url" content="http://artshow.scripting.com/" />
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="Art Show" />
+			<meta property="og:description" content="The Art Show web app displays a great work of art every ten seconds. It's a new way of viewing art from the wonderful fan art feeds on Twitter." />
+			<meta property="og:image" content="http://scripting.com/images/2018/07/01/vanGogh.png" />
+			<meta property="og:site_name" content="artshow.scripting.com" />
+		<!-- Twitter metadata -->
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:site" content="@davewiner">
+			<meta name="twitter:title" content="Art Show">
+			<meta name="twitter:description" content="The Art Show web app displays a great work of art every ten seconds. It's a new way of viewing art from the wonderful fan art feeds on Twitter.">
+			<meta name="twitter:image:src" content="http://scripting.com/images/2018/07/01/vanGogh.png">
+		</head>
+	<body>
+		<div class="divPageBody" id="idPageBody">
+			<center>
+				<div class="divTopStatusLine">
+					<div class="divPausedMessage" id="idPausedMessage">
+						</div>
+					<div class="divHowToLink" id="idHowToLink">
+						<a href="http://this.how/artshow/" target="_blank" title="Click here to see the docs for this app."><i class="fa fa-info-circle"></i></a>
+						</div>
+					</div>
+				<div class="divCheckbox">
+					<input type="checkbox" id="idRandomArtDisplay" checked> Update display
+					</div>
+				<div class="divArtDisplay" id="idArtDisplay">
+					</div>
+				<div class="divStats" id="idStats">
+					</div>
+				</center>
+			</div>
+		<script>
+			$(document).ready (function () {
+				startup ();
+				});
+			</script>
+		</body>
+	</html>

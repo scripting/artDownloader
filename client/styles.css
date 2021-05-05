@@ -1,0 +1,64 @@
+body {
+	font-family: Ubuntu;
+	font-size: 18px;
+	background-color: whitesmoke;
+	}
+.divPageBody {
+	width: 600px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 400px;
+	min-height: 1400px;
+	}
+.divArtDisplay {
+	}
+.divStats {
+	font-size: 14px;
+	margin-top: 8px;
+	color: gray;
+	}
+.divCheckbox {
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: none;
+	}
+.divTopStatusLine {
+	height: 20px;
+	}
+.divPausedMessage {
+	float: right;
+	font-size: 12px;
+	color: gray;
+	}
+.divHowToLink {
+	float: left;
+	font-size: 16px;
+	margin-bottom: 2px;
+	}
+.divHowToLink a {
+	cursor: pointer;
+	color: gray;
+	}
+.spTweetIcon {
+	font-size: 14px;
+	margin-top: 2px;
+	margin-right: .4em;
+	}
+
+/* styles for phone */
+	@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 480px) {
+		.divPageBody {
+			width: 96%;
+			margin-top: 5px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 30px;
+			}
+		}
+/* styles for tablet */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		}
+
