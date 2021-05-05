@@ -1,6 +1,6 @@
 {
-    "ctPictures": 1471,
-    "whenLastPicture": "2021-05-05T13:30:00.684Z",
+    "ctPictures": 1475,
+    "whenLastPicture": "2021-05-05T13:31:00.796Z",
     "artists": {
         "pablocubist": {
             "whenAdded": "2021-05-03T14:41:35.538Z",
@@ -84,13 +84,13 @@
         },
         "artistmorisot": {
             "whenAdded": "2021-05-03T14:49:00.447Z",
-            "whenLastCheck": "2021-05-05T12:31:00.378Z",
-            "ctChecks": 55,
+            "whenLastCheck": "2021-05-05T13:31:00.796Z",
+            "ctChecks": 56,
             "ctErrors": 0,
             "id": "4719083081",
-            "idLastTweet": "1389694078510579718",
-            "ctPictures": 25,
-            "whenLastPicture": "2021-05-05T03:22:00.763Z"
+            "idLastTweet": "1389694329103519749",
+            "ctPictures": 29,
+            "whenLastPicture": "2021-05-05T13:31:00.796Z"
         },
         "artist_dali": {
             "whenAdded": "2021-05-03T14:50:00.581Z",
