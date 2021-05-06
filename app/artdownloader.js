@@ -4,12 +4,14 @@ const fs = require ("fs");
 const utils = require ("daveutils");
 const request = require ("request");
 const davetwitter = require ("davetwitter"); 
+const rss = require ("daverss");
 
 var config = {
 	mediaFilePath: "data/images/",
 	jsonFilePath: "data/json/",
 	fnameStats: "stats.json",
 	artJsonPath: "data/art.json",
+	rssFilePath: "data/rss.xml",
 	
 	idFanList: "1389951899424677888",
 	
@@ -22,12 +24,34 @@ var config = {
 		"artfridakahlo", "artistrivera", "artistokeeffe", "artlichtenstein", "ArtistDaVinci",
 		"fanmichelangelo", "artistraphael", "artistholbein", "artistbruegel", "artistmagritte",
 		"artisthopper", "artistseurat", "artprendergast", "artistwerefkin"
-		]
+		],
+	
+	rssHeadElements: { 
+		title: "Art Show",
+		link: "http://artshow.scripting.com/",
+		description: "Art images from fan feeds on Twitter, suitable for viewing in the Art Show web app.",
+		language: "en-us",
+		generator: myProductName + " v" + myVersion,
+		docs: "http://cyber.law.harvard.edu/rss/rss.html",
+		twitterScreenName: "davewiner",
+		maxFeedItems: 100,
+		flRssCloudEnabled: false, //we're saving the feed on github, long after the feed is built, so we can't do rssCloud
+		rssCloudDomain: "rpc.rsscloud.io",
+		rssCloudPort: 5337,
+		rssCloudPath: "/pleaseNotify",
+		rssCloudRegisterProcedure: "",
+		rssCloudProtocol: "http-post"
+		}
+	
 	};
 
 var stats = {
+	ctLaunches: 0,
+	whenLastLaunch: undefined,
+	
 	ctPictures: 0,
 	whenLastPicture: undefined,
+	
 	artists: new Object ()
 	};
 
@@ -47,6 +71,9 @@ function testLists () {
 		});
 	}
 
+function statsChanged () {
+	flStatsChanged = true;
+	}
 function getFanAccountsList (callback) {
 	davetwitter.getListMembers (config.myAccessToken, config.myAccessTokenSecret, config.idFanList, function (err, theList) {
 		if (err) {
@@ -66,9 +93,31 @@ function getFanAccountsList (callback) {
 			}
 		});
 	}
-
-function statsChanged () {
-	flStatsChanged = true;
+function buildRss (artArray) {
+	var historyArray = new Array (), whenstart = new Date ();
+	artArray.forEach (function (item) {
+		historyArray.push ({
+			title: item.text,
+			link: "https://twitter.com/" + item.name + "/status/" + item.id,
+			when: item.when,
+			twitterScreenName: item.name,
+			enclosure: {
+				url: item.url,
+				type: "image/jpeg",
+				length: item.w * item.h //oh the humanity
+				},
+			guid: {
+				flPermalink: false,
+				value: item.id
+				}
+			});
+		});
+	var xmltext = rss.buildRssFeed (config.rssHeadElements, historyArray); //generate the RSS feed from the data
+	fs.writeFile (config.rssFilePath, xmltext, function (err) {
+		if (err) {
+			console.log ("buildRss: err.message == " + err.message);
+			}
+		});
 	}
 function buildArtJson (callback) {
 	var artArray = new Array (), whenstart = new Date ();
@@ -250,7 +299,9 @@ function everySecond () {
 		flStatsChanged = false;
 		fs.writeFile (config.fnameStats, utils.jsonStringify (stats), function (err) {
 			});
-		buildArtJson ();
+		buildArtJson (function (artArray) {
+			buildRss (artArray);
+			});
 		}
 	}
 function readConfig (f, config, callback) {
@@ -275,7 +326,9 @@ readConfig (fnameConfig, config, function () {
 		config.flServerEnabled = false; 
 		davetwitter.start (config);
 		getFanAccountsList (function () {
-			buildArtJson ();
+			stats.ctLaunches++;
+			stats.whenLastLaunch = new Date ();
+			statsChanged ();
 			utils.runEveryMinute (everyMinute);
 			setInterval (everySecond, 1000); 
 			});

@@ -6,8 +6,9 @@
 	"license": "MIT",
 	"main": "artdownloader.js",
 	"dependencies" : {
-		"daveutils": "*",
 		"request": "*",
+		"daveutils": "*",
+		"daverss": "*",
 		"davetwitter": "*"
 		} 
 	}
