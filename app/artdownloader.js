@@ -80,12 +80,8 @@ function getFanAccountsList (callback) {
 			console.log ("getFanAccountsList: err.message == " + err.message);
 			}
 		else {
-			let newList = new Array ();
-			theList.forEach (function (item) {
-				newList.push (item.screenname);
-				});
-			config.artists = newList;
-			stats.fanAccountsList = newList;
+			config.artists = theList;
+			stats.fanAccountsList = theList;
 			statsChanged ();
 			}
 		if (callback !== undefined) {
