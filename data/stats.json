@@ -1,363 +1,363 @@
 {
     "ctLaunches": 4,
     "whenLastLaunch": "2021-05-07T16:02:08.102Z",
-    "ctPictures": 4537,
-    "whenLastPicture": "2021-05-09T12:36:00.246Z",
+    "ctPictures": 5384,
+    "whenLastPicture": "2021-05-10T13:42:00.163Z",
     "artists": {
         "pablocubist": {
             "whenAdded": "2021-05-03T14:41:35.538Z",
-            "whenLastCheck": "2021-05-09T12:14:00.716Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:34:00.250Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "4131418094",
-            "idLastTweet": "1391246372247154689",
-            "ctPictures": 466,
-            "whenLastPicture": "2021-05-09T12:14:00.716Z"
+            "idLastTweet": "1391606141210304517",
+            "ctPictures": 542,
+            "whenLastPicture": "2021-05-10T13:34:00.250Z"
         },
         "artistklee": {
             "whenAdded": "2021-05-03T14:42:00.611Z",
-            "whenLastCheck": "2021-05-09T12:17:00.279Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:36:00.676Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "802613662494191617",
-            "idLastTweet": "1391123069926793218",
-            "ctPictures": 146,
-            "whenLastPicture": "2021-05-09T10:16:01.001Z"
+            "idLastTweet": "1391563641686790146",
+            "ctPictures": 165,
+            "whenLastPicture": "2021-05-10T05:31:00.397Z"
         },
         "artistrothko": {
             "whenAdded": "2021-05-03T14:43:00.718Z",
-            "whenLastCheck": "2021-05-09T12:20:00.827Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:37:00.882Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "819807672618741761",
-            "idLastTweet": "1391306166874017793",
-            "ctPictures": 50,
-            "whenLastPicture": "2021-05-09T08:17:00.944Z"
+            "idLastTweet": "1391613444269424647",
+            "ctPictures": 56,
+            "whenLastPicture": "2021-05-10T03:30:00.339Z"
         },
         "vangoghartist": {
             "whenAdded": "2021-05-03T14:44:00.850Z",
-            "whenLastCheck": "2021-05-09T12:21:00.987Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:39:00.301Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "3910165539",
-            "idLastTweet": "1391216871794479104",
-            "ctPictures": 464,
-            "whenLastPicture": "2021-05-09T11:21:00.833Z"
+            "idLastTweet": "1391574807964160002",
+            "ctPictures": 543,
+            "whenLastPicture": "2021-05-10T13:39:00.301Z"
         },
         "artistmanet": {
             "whenAdded": "2021-05-03T14:45:00.968Z",
-            "whenLastCheck": "2021-05-09T12:23:00.296Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:40:00.612Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "704710571187376129",
-            "idLastTweet": "1391125193708523523",
-            "ctPictures": 102,
-            "whenLastPicture": "2021-05-09T12:23:00.296Z"
+            "idLastTweet": "1391560121768050691",
+            "ctPictures": 113,
+            "whenLastPicture": "2021-05-10T11:38:00.658Z"
         },
         "artistdegas": {
             "whenAdded": "2021-05-03T14:46:00.079Z",
-            "whenLastCheck": "2021-05-09T12:00:00.047Z",
-            "ctChecks": 120,
+            "whenLastCheck": "2021-05-10T13:20:00.580Z",
+            "ctChecks": 145,
             "ctErrors": 0,
             "id": "4740753023",
-            "idLastTweet": "1391218671360544768",
-            "ctPictures": 206,
-            "whenLastPicture": "2021-05-09T12:00:00.047Z"
+            "idLastTweet": "1391571850455564289",
+            "ctPictures": 253,
+            "whenLastPicture": "2021-05-10T12:19:00.777Z"
         },
         "cezanneart": {
             "whenAdded": "2021-05-03T14:47:00.189Z",
-            "whenLastCheck": "2021-05-09T12:24:00.539Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:41:00.880Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "3820960634",
-            "idLastTweet": "1391191002459873281",
-            "ctPictures": 238,
-            "whenLastPicture": "2021-05-09T11:23:00.185Z"
+            "idLastTweet": "1391564477536120844",
+            "ctPictures": 282,
+            "whenLastPicture": "2021-05-10T10:39:00.428Z"
         },
         "artistgauguin": {
             "whenAdded": "2021-05-03T14:48:00.331Z",
-            "whenLastCheck": "2021-05-09T12:26:00.870Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:42:00.163Z",
+            "ctChecks": 175,
             "ctErrors": 0,
             "id": "3622154472",
-            "idLastTweet": "1391208237110808578",
-            "ctPictures": 252,
-            "whenLastPicture": "2021-05-09T11:26:00.776Z"
+            "idLastTweet": "1391567625013104640",
+            "ctPictures": 295,
+            "whenLastPicture": "2021-05-10T13:42:00.163Z"
         },
         "artistmorisot": {
             "whenAdded": "2021-05-03T14:49:00.447Z",
-            "whenLastCheck": "2021-05-09T12:32:00.796Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:47:00.165Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "4719083081",
-            "idLastTweet": "1391246375543771139",
-            "ctPictures": 59,
-            "whenLastPicture": "2021-05-09T01:25:00.955Z"
+            "idLastTweet": "1391564054381088777",
+            "ctPictures": 67,
+            "whenLastPicture": "2021-05-10T02:40:00.410Z"
         },
         "artist_dali": {
             "whenAdded": "2021-05-03T14:50:00.581Z",
-            "whenLastCheck": "2021-05-09T12:33:00.906Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:48:00.323Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "798727210995687424",
-            "idLastTweet": "1391181920395042820",
-            "ctPictures": 261,
-            "whenLastPicture": "2021-05-09T12:33:00.906Z"
+            "idLastTweet": "1391553673730330624",
+            "ctPictures": 300,
+            "whenLastPicture": "2021-05-10T10:46:00.835Z"
         },
         "artistchagall": {
             "whenAdded": "2021-05-03T14:51:00.684Z",
-            "whenLastCheck": "2021-05-09T12:35:00.142Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:49:00.555Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "3655370114",
-            "idLastTweet": "1391190672036745217",
-            "ctPictures": 241,
-            "whenLastPicture": "2021-05-09T11:34:00.347Z"
+            "idLastTweet": "1391565058795347972",
+            "ctPictures": 288,
+            "whenLastPicture": "2021-05-10T11:48:00.694Z"
         },
         "artistmatisse": {
             "whenAdded": "2021-05-03T14:52:00.817Z",
-            "whenLastCheck": "2021-05-09T12:36:00.246Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:50:00.769Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "4007295494",
-            "idLastTweet": "1391256315884982272",
-            "ctPictures": 467,
-            "whenLastPicture": "2021-05-09T12:36:00.246Z"
+            "idLastTweet": "1391614298494013446",
+            "ctPictures": 542,
+            "whenLastPicture": "2021-05-10T12:50:00.769Z"
         },
         "franzmarcart": {
             "whenAdded": "2021-05-03T14:53:00.944Z",
-            "whenLastCheck": "2021-05-09T12:37:00.458Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:53:00.369Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "4423533136",
-            "idLastTweet": "1390821018118275077",
-            "ctPictures": 49,
-            "whenLastPicture": "2021-05-07T20:13:00.757Z"
+            "idLastTweet": "1391566749070499845",
+            "ctPictures": 58,
+            "whenLastPicture": "2021-05-10T01:45:00.376Z"
         },
         "artistpollock": {
             "whenAdded": "2021-05-03T14:54:00.140Z",
-            "whenLastCheck": "2021-05-09T12:43:00.195Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T12:58:00.379Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "819807852566958085",
-            "idLastTweet": "1391239095272316936",
-            "ctPictures": 38,
-            "whenLastPicture": "2021-05-09T04:38:00.552Z"
+            "idLastTweet": "1391574225429975040",
+            "ctPictures": 43,
+            "whenLastPicture": "2021-05-10T02:51:00.130Z"
         },
         "artistdekooning": {
             "whenAdded": "2021-05-03T14:55:00.264Z",
-            "whenLastCheck": "2021-05-09T12:45:00.417Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:00:00.810Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "819807576950874112",
-            "idLastTweet": "1391283018728345601",
-            "ctPictures": 52,
-            "whenLastPicture": "2021-05-09T07:43:00.218Z"
+            "idLastTweet": "1391503643308920836",
+            "ctPictures": 57,
+            "whenLastPicture": "2021-05-09T21:50:00.679Z"
         },
         "artfridakahlo": {
             "whenAdded": "2021-05-03T14:56:00.374Z",
-            "whenLastCheck": "2021-05-09T12:49:00.871Z",
-            "ctChecks": 150,
+            "whenLastCheck": "2021-05-10T13:04:00.535Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "3699312922",
-            "idLastTweet": "1391256637575417858",
-            "ctPictures": 43,
-            "whenLastPicture": "2021-05-09T05:44:00.024Z"
+            "idLastTweet": "1391559012769013760",
+            "ctPictures": 49,
+            "whenLastPicture": "2021-05-10T01:58:00.509Z"
         },
         "artistrivera": {
             "whenAdded": "2021-05-03T14:57:00.506Z",
-            "whenLastCheck": "2021-05-09T11:50:00.178Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:05:00.702Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "3633729018",
-            "idLastTweet": "1391275041803878401",
-            "ctPictures": 62,
-            "whenLastPicture": "2021-05-09T06:46:00.514Z"
+            "idLastTweet": "1391558370704961536",
+            "ctPictures": 69,
+            "whenLastPicture": "2021-05-10T04:01:00.607Z"
         },
         "artistokeeffe": {
             "whenAdded": "2021-05-03T14:58:00.629Z",
-            "whenLastCheck": "2021-05-09T11:52:00.611Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:08:00.283Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "4252296618",
-            "idLastTweet": "1391194874469359619",
-            "ctPictures": 86,
-            "whenLastPicture": "2021-05-09T04:48:00.363Z"
+            "idLastTweet": "1391545846752284683",
+            "ctPictures": 94,
+            "whenLastPicture": "2021-05-10T04:04:00.555Z"
         },
         "artlichtenstein": {
             "whenAdded": "2021-05-03T14:59:00.739Z",
-            "whenLastCheck": "2021-05-09T11:53:00.770Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:10:00.640Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "893074379927691264",
-            "idLastTweet": "1391233809975287809",
-            "ctPictures": 68,
-            "whenLastPicture": "2021-05-09T04:49:00.556Z"
+            "idLastTweet": "1391574786221002755",
+            "ctPictures": 77,
+            "whenLastPicture": "2021-05-10T03:04:00.963Z"
         },
         "ArtistDaVinci": {
             "whenAdded": "2021-05-03T15:00:00.888Z",
-            "whenLastCheck": "2021-05-09T11:59:00.848Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:19:00.347Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "812847929321025536",
-            "idLastTweet": "1391257325885968384",
-            "ctPictures": 49,
-            "whenLastPicture": "2021-05-09T05:56:00.230Z"
+            "idLastTweet": "1391562628154134528",
+            "ctPictures": 55,
+            "whenLastPicture": "2021-05-10T02:11:00.778Z"
         },
         "fanmichelangelo": {
             "whenAdded": "2021-05-03T15:01:00.007Z",
-            "whenLastCheck": "2021-05-09T12:03:00.577Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:25:00.532Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "813230278097387521",
-            "idLastTweet": "1391133474749288449",
-            "ctPictures": 57,
-            "whenLastPicture": "2021-05-08T20:55:00.373Z"
+            "idLastTweet": "1391608825065639938",
+            "ctPictures": 67,
+            "whenLastPicture": "2021-05-10T05:18:00.333Z"
         },
         "artistraphael": {
             "whenAdded": "2021-05-03T15:02:00.100Z",
-            "whenLastCheck": "2021-05-09T12:06:00.190Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:26:00.732Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "814301257317937152",
-            "idLastTweet": "1391292612389261314",
-            "ctPictures": 54,
-            "whenLastPicture": "2021-05-08T21:56:00.899Z"
+            "idLastTweet": "1391582396554911745",
+            "ctPictures": 66,
+            "whenLastPicture": "2021-05-10T04:19:00.448Z"
         },
         "artistholbein": {
             "whenAdded": "2021-05-03T15:03:00.221Z",
-            "whenLastCheck": "2021-05-09T12:07:00.381Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:27:00.894Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "819336666854944769",
-            "idLastTweet": "1391260043446738944",
-            "ctPictures": 71,
-            "whenLastPicture": "2021-05-09T05:03:00.136Z"
+            "idLastTweet": "1391571959775961088",
+            "ctPictures": 78,
+            "whenLastPicture": "2021-05-10T02:18:00.058Z"
         },
         "artistbruegel": {
             "whenAdded": "2021-05-03T15:04:00.363Z",
-            "whenLastCheck": "2021-05-09T12:11:00.101Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:29:00.321Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "820826766340132865",
-            "idLastTweet": "1391254762360868865",
-            "ctPictures": 44,
-            "whenLastPicture": "2021-05-09T05:07:00.952Z"
+            "idLastTweet": "1391574167686897675",
+            "ctPictures": 50,
+            "whenLastPicture": "2021-05-10T02:20:00.811Z"
         },
         "artistmagritte": {
             "whenAdded": "2021-05-03T15:05:00.429Z",
-            "whenLastCheck": "2021-05-09T12:12:00.293Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:30:00.512Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "798654622361669632",
-            "idLastTweet": "1391293533336788992",
-            "ctPictures": 82,
-            "whenLastPicture": "2021-05-09T08:10:00.754Z"
+            "idLastTweet": "1391554301487722507",
+            "ctPictures": 93,
+            "whenLastPicture": "2021-05-10T05:24:00.099Z"
         },
         "artisthopper": {
             "whenAdded": "2021-05-03T15:06:00.535Z",
-            "whenLastCheck": "2021-05-09T12:13:00.549Z",
-            "ctChecks": 149,
+            "whenLastCheck": "2021-05-10T13:31:00.688Z",
+            "ctChecks": 174,
             "ctErrors": 0,
             "id": "819801657957490689",
-            "idLastTweet": "1391258313715863555",
-            "ctPictures": 70,
-            "whenLastPicture": "2021-05-09T05:09:00.300Z"
+            "idLastTweet": "1391613595163799553",
+            "ctPictures": 77,
+            "whenLastPicture": "2021-05-10T05:26:00.431Z"
         },
         "artistseurat": {
             "whenAdded": "2021-05-03T21:59:00.309Z",
-            "whenLastCheck": "2021-05-09T11:58:00.685Z",
-            "ctChecks": 133,
+            "whenLastCheck": "2021-05-10T13:16:00.799Z",
+            "ctChecks": 158,
             "ctErrors": 0,
             "id": "3842270054",
-            "idLastTweet": "1391249856174469121",
-            "ctPictures": 68,
-            "whenLastPicture": "2021-05-08T01:36:00.815Z"
+            "idLastTweet": "1391573183443128323",
+            "ctPictures": 78,
+            "whenLastPicture": "2021-05-10T02:10:00.426Z"
         },
         "artprendergast": {
             "whenAdded": "2021-05-05T02:51:00.499Z",
-            "whenLastCheck": "2021-05-09T12:01:00.243Z",
-            "ctChecks": 105,
+            "whenLastCheck": "2021-05-10T13:21:00.754Z",
+            "ctChecks": 130,
             "ctErrors": 0,
             "id": "893041173031473152",
-            "idLastTweet": "1391115896643522562",
-            "ctPictures": 63,
-            "whenLastPicture": "2021-05-09T03:57:00.982Z"
+            "idLastTweet": "1391545115697614857",
+            "ctPictures": 75,
+            "whenLastPicture": "2021-05-10T02:13:00.410Z"
         },
         "artistwerefkin": {
             "whenAdded": "2021-05-05T14:00:00.010Z",
-            "whenLastCheck": "2021-05-09T12:02:00.389Z",
-            "ctChecks": 94,
+            "whenLastCheck": "2021-05-10T13:24:00.351Z",
+            "ctChecks": 119,
             "ctErrors": 0,
             "id": "893045053807112192",
-            "idLastTweet": "1391279555558748160",
-            "ctPictures": 18,
-            "whenLastPicture": "2021-05-08T04:43:00.671Z"
+            "idLastTweet": "1391583098886885379",
+            "ctPictures": 19,
+            "whenLastPicture": "2021-05-10T03:15:00.426Z"
         },
         "artpissarro": {
             "whenAdded": "2021-05-05T18:54:00.849Z",
-            "whenLastCheck": "2021-05-09T11:56:00.294Z",
-            "ctChecks": 89,
+            "whenLastCheck": "2021-05-10T13:14:00.435Z",
+            "ctChecks": 114,
             "ctErrors": 0,
             "id": "4230124083",
-            "idLastTweet": "1391201110443053056",
-            "ctPictures": 166,
-            "whenLastPicture": "2021-05-09T09:54:00.907Z"
+            "idLastTweet": "1391560072355061768",
+            "ctPictures": 211,
+            "whenLastPicture": "2021-05-10T13:14:00.435Z"
         },
         "artistkandinsky": {
             "whenAdded": "2021-05-05T18:55:00.040Z",
-            "whenLastCheck": "2021-05-09T11:57:00.437Z",
-            "ctChecks": 89,
+            "whenLastCheck": "2021-05-10T13:15:00.623Z",
+            "ctChecks": 114,
             "ctErrors": 0,
             "id": "3555683713",
-            "idLastTweet": "1391114573554532357",
-            "ctPictures": 34,
-            "whenLastPicture": "2021-05-09T03:52:00.002Z"
+            "idLastTweet": "1391536805615390723",
+            "ctPictures": 41,
+            "whenLastPicture": "2021-05-10T01:07:00.749Z"
         },
         "artistmondrian": {
             "whenAdded": "2021-05-05T20:41:00.706Z",
-            "whenLastCheck": "2021-05-09T12:38:00.586Z",
-            "ctChecks": 88,
+            "whenLastCheck": "2021-05-10T12:54:00.563Z",
+            "ctChecks": 112,
             "ctErrors": 0,
             "id": "1061465069026852865",
-            "idLastTweet": "1391208399547797507",
-            "ctPictures": 31,
-            "whenLastPicture": "2021-05-09T02:33:00.642Z"
+            "idLastTweet": "1391557585657073665",
+            "ctPictures": 36,
+            "whenLastPicture": "2021-05-10T01:46:00.713Z"
         },
         "ArtistCortes": {
             "whenAdded": "2021-05-05T20:42:00.934Z",
-            "whenLastCheck": "2021-05-09T12:39:00.692Z",
-            "ctChecks": 88,
+            "whenLastCheck": "2021-05-10T12:55:00.790Z",
+            "ctChecks": 112,
             "ctErrors": 0,
             "id": "893047548960579584",
-            "idLastTweet": "1391241499250204672",
-            "ctPictures": 42,
-            "whenLastPicture": "2021-05-09T04:35:00.927Z"
+            "idLastTweet": "1391574826779873285",
+            "ctPictures": 48,
+            "whenLastPicture": "2021-05-10T01:48:00.396Z"
         },
         "artistmetzinger": {
             "whenAdded": "2021-05-05T20:43:00.149Z",
-            "whenLastCheck": "2021-05-09T12:41:00.959Z",
-            "ctChecks": 88,
+            "whenLastCheck": "2021-05-10T12:57:00.192Z",
+            "ctChecks": 112,
             "ctErrors": 0,
             "id": "791715473800900609",
-            "idLastTweet": "1391297303705698305",
-            "ctPictures": 38,
-            "whenLastPicture": "2021-05-09T08:40:00.206Z"
+            "idLastTweet": "1391604088123580416",
+            "ctPictures": 41,
+            "whenLastPicture": "2021-05-10T04:52:00.356Z"
         },
         "artistsargent": {
             "whenAdded": "2021-05-07T01:11:00.170Z",
-            "whenLastCheck": "2021-05-09T12:46:00.512Z",
-            "ctChecks": 60,
+            "whenLastCheck": "2021-05-10T13:02:00.171Z",
+            "ctChecks": 84,
             "ctErrors": 0,
             "id": "819806874035843073",
-            "idLastTweet": "1391262301269987330",
-            "ctPictures": 199,
-            "whenLastPicture": "2021-05-09T11:46:00.470Z"
+            "idLastTweet": "1391621505222651904",
+            "ctPictures": 279,
+            "whenLastPicture": "2021-05-10T13:02:00.171Z"
         },
         "artistzabaleta": {
             "whenAdded": "2021-05-07T01:12:00.359Z",
-            "whenLastCheck": "2021-05-09T12:48:00.749Z",
-            "ctChecks": 60,
+            "whenLastCheck": "2021-05-10T13:03:00.354Z",
+            "ctChecks": 84,
             "ctErrors": 0,
             "id": "793617420518694912",
             "idLastTweet": "1391046141115047936",
@@ -366,53 +366,73 @@
         },
         "artistduchamp": {
             "whenAdded": "2021-05-07T01:41:00.387Z",
-            "whenLastCheck": "2021-05-09T12:15:00.901Z",
-            "ctChecks": 59,
+            "whenLastCheck": "2021-05-10T13:35:00.463Z",
+            "ctChecks": 84,
             "ctErrors": 0,
             "id": "792059498269585408",
-            "idLastTweet": "1391123937585676288",
-            "ctPictures": 25,
-            "whenLastPicture": "2021-05-09T04:10:00.432Z"
+            "idLastTweet": "1391554308081176576",
+            "ctPictures": 32,
+            "whenLastPicture": "2021-05-10T01:26:00.024Z"
         },
         "artistottodix": {
             "whenAdded": "2021-05-08T01:21:00.942Z",
-            "whenLastCheck": "2021-05-09T12:44:00.306Z",
-            "ctChecks": 36,
+            "whenLastCheck": "2021-05-10T12:59:00.601Z",
+            "ctChecks": 60,
             "ctErrors": 0,
             "id": "893066378227404800",
-            "idLastTweet": "1391185615471980550",
-            "ctPictures": 16,
-            "whenLastPicture": "2021-05-09T04:39:00.724Z"
+            "idLastTweet": "1391548223165186059",
+            "ctPictures": 24,
+            "whenLastPicture": "2021-05-10T02:52:00.503Z"
         },
         "artistescher": {
             "whenAdded": "2021-05-08T01:31:00.922Z",
-            "whenLastCheck": "2021-05-09T11:51:00.403Z",
-            "ctChecks": 35,
+            "whenLastCheck": "2021-05-10T13:06:00.866Z",
+            "ctChecks": 60,
             "ctErrors": 0,
             "id": "893069482331131905",
-            "idLastTweet": "1391115114267480065",
-            "ctPictures": 23,
-            "whenLastPicture": "2021-05-09T09:49:00.987Z"
+            "idLastTweet": "1391518312903942144",
+            "ctPictures": 36,
+            "whenLastPicture": "2021-05-10T06:03:00.946Z"
         },
         "artbotticelli": {
             "whenAdded": "2021-05-09T07:51:00.044Z",
-            "whenLastCheck": "2021-05-09T11:54:00.962Z",
-            "ctChecks": 5,
+            "whenLastCheck": "2021-05-10T13:11:00.846Z",
+            "ctChecks": 30,
             "ctErrors": 0,
             "id": "820733384360083456",
-            "idLastTweet": "1390283482090426371",
-            "ctPictures": 16,
-            "whenLastPicture": "2021-05-09T07:51:00.044Z"
+            "idLastTweet": "1391539552209281024",
+            "ctPictures": 20,
+            "whenLastPicture": "2021-05-10T00:02:00.515Z"
         },
         "artistbosch": {
             "whenAdded": "2021-05-09T07:52:00.235Z",
-            "whenLastCheck": "2021-05-09T11:55:00.129Z",
-            "ctChecks": 5,
+            "whenLastCheck": "2021-05-10T13:13:00.261Z",
+            "ctChecks": 30,
             "ctErrors": 0,
             "id": "813147420066545664",
-            "idLastTweet": "1390739814958473221",
-            "ctPictures": 6,
-            "whenLastPicture": "2021-05-09T07:52:00.235Z"
+            "idLastTweet": "1391585971519557634",
+            "ctPictures": 11,
+            "whenLastPicture": "2021-05-10T03:06:00.561Z"
+        },
+        "artistbrauner": {
+            "whenAdded": "2021-05-09T16:31:00.571Z",
+            "whenLastCheck": "2021-05-10T12:45:00.807Z",
+            "ctChecks": 21,
+            "ctErrors": 0,
+            "id": "802625846439776256",
+            "idLastTweet": "1391477670274347014",
+            "ctPictures": 19,
+            "whenLastPicture": "2021-05-09T20:33:00.276Z"
+        },
+        "mackeaugust": {
+            "whenAdded": "2021-05-09T22:21:00.935Z",
+            "whenLastCheck": "2021-05-10T13:32:00.875Z",
+            "ctChecks": 16,
+            "ctErrors": 0,
+            "id": "4493052314",
+            "idLastTweet": "1391422685016698887",
+            "ctPictures": 20,
+            "whenLastPicture": "2021-05-10T02:24:00.099Z"
         }
     },
     "fanAccountsList": [
@@ -435,6 +455,7 @@
         "fanmichelangelo",
         "artistbosch",
         "ArtistDaVinci",
+        "artistbrauner",
         "artistklee",
         "artist_dali",
         "artistmagritte",
@@ -444,6 +465,7 @@
         "artistmanet",
         "artistdegas",
         "artistmorisot",
+        "mackeaugust",
         "franzmarcart",
         "artistokeeffe",
         "artpissarro",
