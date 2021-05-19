@@ -136,10 +136,15 @@ function buildArtJson (callback) {
 		});
 	
 	var randomArtArray = new Array ();
-	for (var i = 1; i <= config.maxArtArray; i++) {
+	while (randomArtArray.length < config.maxArtArray) {
 		var ix = utils.random (0, artArray.length - 1);
-		randomArtArray.push (artArray [ix]);
+		if (artArray [ix] != null) {
+			randomArtArray.push (artArray [ix]);
+			}
 		delete artArray [ix];
+		if (artArray.length == 0) {
+			break;
+			}
 		}
 	
 	console.log ("buildArtJson: randomArtArray.length == " + randomArtArray.length);
