@@ -13,6 +13,9 @@ var config = {
 	artJsonPath: "data/art.json",
 	rssFilePath: "data/rss.xml",
 	
+	maxArtArray: 1000, //how many random works of art in art array?
+	
+	
 	idFanList: "1389951899424677888",
 	
 	minSecsBetwChecks: 60 * 60, //1 hour
@@ -132,8 +135,17 @@ function buildArtJson (callback) {
 			}
 		});
 	
+	var randomArtArray = new Array ();
+	for (var i = 1; i <= config.maxArtArray; i++) {
+		var ix = utils.random (0, artArray.length - 1);
+		randomArtArray.push (artArray [ix]);
+		delete artArray [ix];
+		}
+	
+	console.log ("buildArtJson: randomArtArray.length == " + randomArtArray.length);
+	
 	var artLibrary = {
-		theArt: artArray
+		theArt: randomArtArray
 		};
 	
 	fs.writeFile (config.artJsonPath, utils.jsonStringify (artLibrary), function (err) {
@@ -325,6 +337,7 @@ readConfig (fnameConfig, config, function () {
 			stats.ctLaunches++;
 			stats.whenLastLaunch = new Date ();
 			statsChanged ();
+			checkNextArtist (); //5/19/21 by DW -- don't wait till top of minute to check next artist
 			utils.runEveryMinute (everyMinute);
 			setInterval (everySecond, 1000); 
 			});
