@@ -1,8 +1,8 @@
 {
     "ctLaunches": 9,
     "whenLastLaunch": "2021-05-19T15:43:31.642Z",
-    "ctPictures": 9662,
-    "whenLastPicture": "2021-05-19T15:43:31.644Z",
+    "ctPictures": 9677,
+    "whenLastPicture": "2021-05-19T15:45:00.110Z",
     "artists": {
         "pablocubist": {
             "whenAdded": "2021-05-03T14:41:35.538Z",
@@ -46,13 +46,13 @@
         },
         "artistmanet": {
             "whenAdded": "2021-05-03T14:45:00.968Z",
-            "whenLastCheck": "2021-05-18T15:40:00.823Z",
-            "ctChecks": 299,
+            "whenLastCheck": "2021-05-19T15:44:32.051Z",
+            "ctChecks": 300,
             "ctErrors": 0,
             "id": "704710571187376129",
-            "idLastTweet": "1394489663298195457",
-            "ctPictures": 203,
-            "whenLastPicture": "2021-05-18T15:40:00.823Z"
+            "idLastTweet": "1394873003628974080",
+            "ctPictures": 209,
+            "whenLastPicture": "2021-05-19T15:44:32.051Z"
         },
         "artistdegas": {
             "whenAdded": "2021-05-03T14:46:00.079Z",
@@ -66,13 +66,13 @@
         },
         "cezanneart": {
             "whenAdded": "2021-05-03T14:47:00.189Z",
-            "whenLastCheck": "2021-05-18T15:41:01.068Z",
-            "ctChecks": 299,
+            "whenLastCheck": "2021-05-19T15:45:00.110Z",
+            "ctChecks": 300,
             "ctErrors": 0,
             "id": "3820960634",
-            "idLastTweet": "1394401345625628672",
-            "ctPictures": 427,
-            "whenLastPicture": "2021-05-18T15:41:01.068Z"
+            "idLastTweet": "1394833388079620101",
+            "ctPictures": 436,
+            "whenLastPicture": "2021-05-19T15:45:00.110Z"
         },
         "artistgauguin": {
             "whenAdded": "2021-05-03T14:48:00.331Z",
