@@ -1,48 +1,48 @@
 {
-    "ctLaunches": 1,
-    "whenLastLaunch": "2021-06-07T00:59:02.614Z",
-    "ctPictures": 623,
-    "whenLastPicture": "2021-06-07T14:52:00.019Z",
+    "ctLaunches": 2,
+    "whenLastLaunch": "2021-06-10T00:49:19.664Z",
+    "ctPictures": 675,
+    "whenLastPicture": "2021-06-10T00:52:00.104Z",
     "artists": {
         "artistmondrian": {
             "whenAdded": "2021-06-07T00:59:02.614Z",
-            "whenLastCheck": "2021-06-07T14:07:00.721Z",
-            "ctChecks": 14,
+            "whenLastCheck": "2021-06-10T00:49:19.664Z",
+            "ctChecks": 15,
             "ctErrors": 0,
             "id": "1061465069026852865",
-            "idLastTweet": "1401340484539326466",
-            "ctPictures": 11,
-            "whenLastPicture": "2021-06-07T00:59:02.614Z"
+            "idLastTweet": "1401584788830666756",
+            "ctPictures": 23,
+            "whenLastPicture": "2021-06-10T00:49:19.664Z"
         },
         "artlichtenstein": {
             "whenAdded": "2021-06-07T01:00:00.866Z",
-            "whenLastCheck": "2021-06-07T14:08:00.886Z",
-            "ctChecks": 14,
+            "whenLastCheck": "2021-06-10T00:50:00.794Z",
+            "ctChecks": 15,
             "ctErrors": 0,
             "id": "893074379927691264",
-            "idLastTweet": "1401642206256041985",
-            "ctPictures": 17,
-            "whenLastPicture": "2021-06-07T02:01:00.533Z"
+            "idLastTweet": "1402308078373122050",
+            "ctPictures": 30,
+            "whenLastPicture": "2021-06-10T00:50:00.794Z"
         },
         "artistescher": {
             "whenAdded": "2021-06-07T01:01:00.024Z",
-            "whenLastCheck": "2021-06-07T14:11:00.373Z",
-            "ctChecks": 14,
+            "whenLastCheck": "2021-06-10T00:51:00.943Z",
+            "ctChecks": 15,
             "ctErrors": 0,
             "id": "893069482331131905",
-            "idLastTweet": "1401655065413304332",
-            "ctPictures": 16,
-            "whenLastPicture": "2021-06-07T08:07:00.092Z"
+            "idLastTweet": "1402466711643865091",
+            "ctPictures": 30,
+            "whenLastPicture": "2021-06-10T00:51:00.943Z"
         },
         "artistottodix": {
             "whenAdded": "2021-06-07T01:02:00.211Z",
-            "whenLastCheck": "2021-06-07T14:13:00.659Z",
-            "ctChecks": 14,
+            "whenLastCheck": "2021-06-10T00:52:00.104Z",
+            "ctChecks": 15,
             "ctErrors": 0,
             "id": "893066378227404800",
-            "idLastTweet": "1401594806195867651",
-            "ctPictures": 18,
-            "whenLastPicture": "2021-06-07T03:04:00.982Z"
+            "idLastTweet": "1402298001503236102",
+            "ctPictures": 31,
+            "whenLastPicture": "2021-06-10T00:52:00.104Z"
         },
         "ArtistCortes": {
             "whenAdded": "2021-06-07T01:03:00.372Z",
