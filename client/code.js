@@ -89,6 +89,7 @@ function viewArt (ixArray) {
 			}, 300);
 		}
 	
+	console.log ("viewArt: item.url == " + item.url);
 	$("#idStats").text ("");
 	if (idLastImg === undefined) {
 		viewNewImage ();
