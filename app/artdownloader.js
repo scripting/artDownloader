@@ -26,7 +26,7 @@ var config = {
 		"artistchagall", "artistmatisse", "franzmarcart", "artistpollock", "artistdekooning",
 		"artfridakahlo", "artistrivera", "artistokeeffe", "artlichtenstein", "ArtistDaVinci",
 		"fanmichelangelo", "artistraphael", "artistholbein", "artistbruegel", "artistmagritte",
-		"artisthopper", "artistseurat", "artprendergast", "artistwerefkin"
+		"artisthopper", "artistseurat", "artprendergast", "artistwerefkin", "artrousseau"
 		],
 	
 	rssHeadElements: { 
