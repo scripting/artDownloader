@@ -129,7 +129,7 @@ function readArtJson (callback) {
 			}
 		});
 	}
-function everyFiveMinutes () {
+function everyHour () {
 	readArtJson ();
 	}
 function everyMinute () {
@@ -145,6 +145,6 @@ function startup () {
 		console.log ("There are " + artLibrary.theArt.length + " works of art in the library.");
 		self.setInterval (everySecond, 1000); 
 		runEveryMinute (everyMinute);
-		self.setInterval (everyFiveMinutes, 5 * 60000); 
+		self.setInterval (everyHour, 60 * 60000); 
 		});
 	}
