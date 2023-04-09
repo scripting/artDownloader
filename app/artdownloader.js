@@ -1,4 +1,4 @@
-const myVersion = "0.4.1", myProductName = "artDownloader";  
+const myVersion = "0.4.1", myProductName = "artDownloader";
 
 const fs = require ("fs");
 const utils = require ("daveutils");
